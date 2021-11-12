@@ -274,4 +274,47 @@ footer .footer_wrapper .footer_copy nav a:hover {
   color: #A4A4A4;
 }
 
+@media (max-width: 600px) {
+  header .header_wrapper .header_content .header_menu_wrapper {
+    padding: 40px 10px;
+  }
+
+  header .header_wrapper .header_content .header_menu_wrapper .header_logo {
+    display: none;
+  }
+
+  footer .footer_wrapper .footer_blocks {
+    flex-direction: column;
+  }
+
+  footer .footer_wrapper .footer_copy {
+    flex-direction: column;
+  }
+
+  footer .footer_wrapper .footer_copy nav a {
+    padding: 10px;
+  }
+
+  main .main_content_wrapper .articles_wrapper article,  main .main_content_wrapper .articles_wrapper article:nth-child(2n) {
+    flex-direction: column;
+  }
+
+  main .main_content_wrapper .articles_wrapper article .text_block {
+    width: 100%;
+  }
+
+  main .main_content_wrapper .content_banner .banner_wrapper {
+    flex-direction: column;
+  }
+
+  main .main_content_wrapper .content_banner .banner_wrapper form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  main .main_content_wrapper .content_banner .banner_wrapper form input {
+    margin-bottom: 20px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
